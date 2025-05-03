@@ -45,5 +45,6 @@ public class StringTransformer {
         System.out.println("Number of words: " + countWords(sentence)); //Return the amount of words in the string
         System.out.println(reverse); //Print out reversed string
         
+        input.close();
     }
 }
